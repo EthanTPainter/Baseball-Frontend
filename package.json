@@ -1,0 +1,38 @@
+{
+  "name": "baseball-frontend",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Baseball application frontend for team or player performance across a baseball season",
+  "author": "Ethan T. Painter",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {},
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/EthanTPainter/Baseball-Frontend/issues"
+  },
+  "homepage": "https://github.com/EthanTPainter/Baseball-Frontend#readme",
+  "keywords": [
+    "Typescript",
+    "Vue",
+    "Baseball",
+    "Frontend"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanTPainter/Baseball-Frontend.git"
+  }
+}
