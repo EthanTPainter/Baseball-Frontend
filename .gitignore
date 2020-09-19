@@ -1,4 +1,6 @@
+dist
 **/*/dist
+
 
 **/*/.serverless
 # Logs
@@ -90,4 +92,4 @@ nginx.conf
 .env-*
 .params-*
 *.aws-sam
-*.toml 
+*.toml
