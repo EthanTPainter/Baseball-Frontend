@@ -4,24 +4,13 @@
   "private": false,
   "description": "Baseball application frontend for team or player performance across a baseball season",
   "author": "Ethan T. Painter",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "release": "standard-version"
-  },
+  "scripts": {},
   "dependencies": {
-    "vue": "^2.6.12"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0-0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0",
-    "vue-template-compiler": "^2.6.12"
+    "eslint": "^6.7.2"
   },
   "eslintConfig": {
     "root": true,
@@ -29,15 +18,12 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/vue3-essential",
       "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {
-      "vue/no-multiple-template-root": 0
-    }
+    "rules": {}
   },
   "bugs": {
     "url": "https://github.com/EthanTPainter/Baseball-Frontend/issues"
@@ -45,7 +31,7 @@
   "homepage": "https://github.com/EthanTPainter/Baseball-Frontend#readme",
   "keywords": [
     "Typescript",
-    "Vue",
+    "React",
     "Baseball",
     "Frontend"
   ],
