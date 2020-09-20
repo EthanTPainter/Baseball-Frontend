@@ -22,13 +22,15 @@ function Compare() {
 
 export const App: FunctionComponent = () => {
 	return (
-		<Router>
-			<Route exact path="/" component={Landing} />
-			<Route exact path="/team" component={Team} />
-			<Route exact path="/player" component={Player} />
-			<Route exact path="/team/:teamId" component={TeamId} />
-			<Route exact path="/player/:playerId" component={PlayerId} />
-			<Route exact path="/compare" component={Compare} />
-		</Router>
+		<div id="app">
+			<Router>
+				<Route exact path="/" component={Landing} />
+				<Route exact path="/team" component={Team} />
+				<Route exact path="/player" component={Player} />
+				<Route exact path="/team/:teamId" component={TeamId} />
+				<Route exact path="/player/:playerId" component={PlayerId} />
+				<Route exact path="/compare" component={Compare} />
+			</Router>
+		</div>
 	);
 };

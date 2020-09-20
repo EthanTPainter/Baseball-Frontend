@@ -1,0 +1,20 @@
+.light-theme {
+  /* General Style */
+  --background-color: #e4f0ee;
+}
+
+.dark-theme {
+  /* General Style */
+  --background-color: #121212;
+}
+
+#app {
+  background-size: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+html {
+  background: var(--background-color);
+  scroll-behavior: smooth;
+}
