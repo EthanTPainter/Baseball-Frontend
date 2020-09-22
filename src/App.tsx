@@ -1,15 +1,11 @@
 import React, { FunctionComponent } from "react";
 import { Route, HashRouter as Router } from "react-router-dom";
 
+import { TeamSearchPage } from "./team-page/TeamSearchPage";
+import { PlayerSearchPage } from "./player-page/PlayerSearchPage";
 import { Landing } from "./landing/Landing";
 
 // Temporary web pages for now
-function Team() {
-	return <div>TEAM PAGE</div>;
-}
-function Player() {
-	return <div>PLAYER PAGE</div>;
-}
 function TeamId() {
 	return <div>TEAM ID PAGE</div>;
 }
@@ -25,8 +21,8 @@ export const App: FunctionComponent = () => {
 		<div id="app">
 			<Router>
 				<Route exact path="/" component={Landing} />
-				<Route exact path="/team" component={Team} />
-				<Route exact path="/player" component={Player} />
+				<Route exact path="/team" component={TeamSearchPage} />
+				<Route exact path="/player" component={PlayerSearchPage} />
 				<Route exact path="/team/:teamId" component={TeamId} />
 				<Route exact path="/player/:playerId" component={PlayerId} />
 				<Route exact path="/compare" component={Compare} />
