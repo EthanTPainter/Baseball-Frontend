@@ -1,0 +1,19 @@
+
+.card-filter-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.card-filter-input {
+  margin-top: 10px;
+}
+
+.card-filter-text {
+  font-size: 28px;
+  margin-right: 10%;
+}
+
+.card-filter-text:last-child {
+  margin-right: 0%;
+}
