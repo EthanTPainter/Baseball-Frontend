@@ -1,0 +1,24 @@
+.card-search-wrapper {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.card-search {
+  width: 30%;
+	text-align: center;
+	font-size: 60px;
+  border: none;
+}
+
+/* Hide placeholder text on focus */
+.card-search:focus::placeholder {
+	color: transparent;
+}
+
+/* Hide outline on focus */
+.card-search:focus {
+  outline: none;
+  border-bottom: 3px solid #78deff;
+}
